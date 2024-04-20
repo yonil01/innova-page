@@ -27,7 +27,9 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/env.js",
+              "src/config.js"
             ],
             "styles": [
               "src/styles.scss"
@@ -93,12 +95,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/tailwindcss/dist/base.css",
+              "node_modules/tailwindcss/dist/components.css",
+              "node_modules/tailwindcss/dist/utilities.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
